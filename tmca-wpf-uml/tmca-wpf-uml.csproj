@@ -144,6 +144,26 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Editing-Underline-icon.png" />
+    <Resource Include="Images\Holidays-Bat-icon.png" />
+    <Resource Include="Images\new-file-icon.png" />
+    <Resource Include="Images\open-file-icon.png" />
+    <Resource Include="Images\Paste-icon.png" />
+    <Resource Include="Images\Save-as-icon.png" />
+    <Resource Include="Images\Save-icon.png" />
+    <Resource Include="Images\Zoom-In-icon.png" />
+    <Resource Include="Images\Zoom-Out-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow-redo-icon.png" />
+    <Resource Include="Images\arrow-undo-icon.png" />
+    <Resource Include="Images\Button-Close-icon.png" />
+    <Resource Include="Images\Copy-icon.png" />
+    <Resource Include="Images\cut-icon.png" />
+    <Resource Include="Images\Editing-Bold-icon.png" />
+    <Resource Include="Images\Editing-Italic-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
