@@ -6,7 +6,9 @@
              xmlns:local="clr-namespace:tmca_wpf_uml.View.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
-    </Grid>
+    <StackPanel>
+        <Button Content="New Class" Command="{Binding AddClassCommand}"/>
+        <Button Content="New Association" Command="{Binding AddAssociationCommand}"/>
+        <Button Content="New TextBox" Command="{Binding AddTextBoxCommand}"/>
+    </StackPanel>
 </UserControl>
